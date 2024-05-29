@@ -1,0 +1,13 @@
+prefix=C:/data_science_project/sensor_fault_detection/venv/Library
+exec_prefix=C:/data_science_project/sensor_fault_detection/venv/Library
+libdir=C:/data_science_project/sensor_fault_detection/venv/Library/lib
+sharedlibdir=C:/data_science_project/sensor_fault_detection/venv/Library/lib
+includedir=C:/data_science_project/sensor_fault_detection/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
