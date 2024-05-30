@@ -1,7 +1,7 @@
 from setuptools import  find_packages, setup     
 
-def get_requirements():
-    requirements_list = []
+def get_requirements()-> List[str]:
+    requirements_list : List[str] = []
     return  requirements_list
 
 
